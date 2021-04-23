@@ -1,5 +1,11 @@
 import React from 'react';
 import '../Style/bundle.css';
+
+
+const style={
+    width: '25%'
+}
+
 class CardsPerfil extends React.Component {
     render(){
         return(
@@ -58,6 +64,17 @@ class CardsPerfil extends React.Component {
                                 
 
                                 </ul>
+                    </div>
+
+                    <div className="row">
+                        <div className="col-md-6 px-0">
+                        <span className="fw-bolder text-dark fs-3">Sales Share</span>
+                        </div>
+                        <div className="col-md-6 px-0">
+                            <div className="progress">
+                                <div className="progress-bar" role="progressbar" style={style} aria-valuenow="25" aria-valuemin="0" aria-valuemax="100">25%</div>
+                            </div>
+                        </div>      
                     </div>
                     
                 </div>

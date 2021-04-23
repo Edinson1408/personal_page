@@ -10226,7 +10226,7 @@ textarea.form-control-lg {
 }
 
 .text-dark {
-  color: #181C32 !important;
+  color: #212529 !important;
 }
 
 .text-body {
@@ -46465,4 +46465,18 @@ body {
   [data-sidebar=on] .scrolltop {
     right: 436px;
   }
+}
+
+.scrollDiv {
+  white-space: nowrap;
+    overflow: auto;
+}
+
+
+.scrollDiv2{
+  display: inline-block;
+  color: white;
+  text-align: center;
+  /* padding: 14px; */
+  text-decoration: none;
 }
